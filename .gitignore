@@ -1,0 +1,74 @@
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+**/packages
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore various Visual Studio files
+.vscode/
+.vs/
+.vscode-test/
+
+# Ignore any other IDEs or OS files
+.idea/
+*.DS_Store
+*.pyc
+*.lock.json
+
+# Ignore ASP.NET specific files
+appsettings.*.json
+appsettings.json
+**/appsettings.*.json
+.env
+.env.*
+
+# Ignore Publish output
+*.PublishProfiles/
+*.publishsettings
+
+# Ignore Rider files
+.idea/
+.idea_modules/
+.idea/*
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore dependency caches
+node_modules/
+yarn.lock
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Ignore generated code files
+Generated/
+GeneratedCode/
+
+# Ignore Resharper settings
+resharper/*
+
+# Ignore files for testing
+TestResults/
+Dump/
+*.spec.json
+
+# Ignore stylesheets and scripts compiled locally
+wwwroot/css/
+wwwroot/js/
